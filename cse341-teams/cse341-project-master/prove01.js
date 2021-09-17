@@ -14,8 +14,8 @@ const server = http.createServer((req,res) => {
       res.setHeader('Content-type','text/html');
       res.write('<html>');
       res.write('<head><title>Prove wk 1</title></head>');
-      res.write('<body><h1>Welocome new user</h1></body>');
-      res.write(('<form action="/create-user" method="POST"><input type="text" name="username"><button type="submit">Create User</button></form>'))
+      res.write('<body><h1>Welcome new user</h1></body>');
+      res.write((' <p> Please enter a username:</p><form action="/create-user" method="POST"><input type="text" name="username"><button type="submit">Create User</button></form>'))
       res.write('</html>');
       return res.end()
     }
@@ -47,7 +47,7 @@ const server = http.createServer((req,res) => {
             users.push(newUser);
         });
         res.statusCode = 302;
-        res.setHeader('Location','/');
+        res.setHeader('Location','/users');
         res.end();
 
     }

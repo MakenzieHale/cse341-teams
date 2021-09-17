@@ -1,0 +1,41 @@
+After completing the assignment, be sure to push to Github. You do not have to worry about pushing to Heroku this lesson.
+Please answer the questions in this text file and submit it to I-Learn.
+
+1. Copy and paste the URL for your source code repository (e.g., GitHub): https://github.com/MakenzieHale/cse341-teams
+
+3. Briefly list and describe the elements of the application that are functioning.: 
+    User is first brought to '/' where they are welcomed and prompted to enter a username, as per the original assigment they are redirected back to '/'.
+    However, I thought it better to redirect to '/users'.Accessing '/users' returns a list of what the user has entered.
+    A list of what the user has entered has also been logged in the console.
+
+4. Briefly describe any pieces of the assignment that are not yet working correctly.
+    The only thing that did not work correctly for me was creating two separate files,
+    the browser would just continue to reload the page and never reach it. No errors were 
+    retuned so I truly have no idea why the two separate files would not connect. But, if I kept
+    my code in a single file then I was able to get to the page where everything functioned correctly.
+
+5. Briefly describe the "coolest" thing you learned while completing this assignment.
+    I think the coolest thing was how much I remembered from previous semesters. In the
+    past I have felt kind of lost when it comes to javascript of any kind, and with this 
+    assignment I felt that I had a pretty good understanding of what things meant.
+    For example, I was a little stumped on getting whatever the user entered to display on the '/users' page,
+    however when a classmate instructed me on where to find a good example, I immediately knew what that
+    example was doing!
+
+6. If you could change this assignment to be more effective or helpful, what would you change?
+    I would maybe add a how to get started video as far as the setup of the documents go. I know there
+    was something similar in academind, but separating my code while following that video didn't work either. 
+    So maybe it is something wrong with my computer?
+
+7. Please select the category you feel best describes your assignment:
+   1 - Some attempt was made
+   2 - Developing, but significantly deficient
+   3 - Slightly deficient, but still mostly adequate
+   4 - Meets requirements
+  [5] - Shows creativity and excels above and beyond requirements 
+
+8. Provide a brief justification (1-2 sentences) for selecting that category.
+    As mentioned earlier, in the academind video the '/create-user' page was 
+    redirected to the '/' page. However, I thought it better to redirect to the '/users'
+    page in order for the user to see what was entered immediately.
+    I also output what was entered from the user to '/users' page.
