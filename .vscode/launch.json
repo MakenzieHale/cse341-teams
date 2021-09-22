@@ -12,6 +12,13 @@
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         },
-        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Node Program",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "${file}"
+
+        }
     ]
 }
