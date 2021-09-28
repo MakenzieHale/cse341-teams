@@ -6,10 +6,8 @@ const rootDir = require('../util/path');
 
 const router = express.Router();
 
-router.get('/',(req,res,next)=>{
-    console.log('main page');
-    res.sendFile(path.join(rootDir,'views','main.html'));
+router.get('/',ta03Controller.getProducts);
+router.get('/seatch',ta03Controller.getSearchProducts);
 
-});
 
 module.exports = router;
